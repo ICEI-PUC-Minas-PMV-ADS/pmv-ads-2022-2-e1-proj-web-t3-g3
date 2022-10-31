@@ -1,0 +1,42 @@
+[
+    {
+      "id": 1,
+      "descricao": "Apoio Mineiro",
+      "urlImg": "assets/img/apoio.jpeg"
+    },
+    {
+      "id": 2,
+      "descricao": "Carrefour Hipermercado",
+      "urlImg": "assets/img/carrefour.png"
+    },
+    {
+      "id": 3,
+      "descricao": "EPA Supermercados",
+      "urlImg": "assets/img/epa.png"
+    },
+    {
+      "id": 4,
+      "descricao": "Mineirão Atacarejo",
+      "urlImg": "assets/img/mineirao.png"
+    },
+    {
+      "id": 5,
+      "descricao": "Supermercados Paranaíba",
+      "urlImg": "assets/img/paranaiba.png"
+    },
+    {
+      "id": 6,
+      "descricao": "Supermecados BH",
+      "urlImg": "assets/img/bh.png"
+    },
+    {
+      "id": 7,
+      "descricao": "Supermercados Verdemar",
+      "urlImg": "assets/img/verdemar.png"
+    },
+    {
+      "id": 8,
+      "descricao": "Villefort Atacado e Varejo",
+      "urlImg": "assets/img/villefort.png"
+    }
+]

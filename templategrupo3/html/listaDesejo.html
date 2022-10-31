@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Page</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+  </head>
+
+  <body>
+    <!-- Bruna -->
+    <script src="../js/main.js"></script>
+
+    <div class="container">
+      <img
+        id="logo"
+        src="/assets/img/logo_site.png"
+        alt=""
+        onclick="location.href='/index.html'"
+      />
+    </div>
+
+    <div class="container_box">
+      <div class="items_container" id="divListaProdutos">
+        <script>
+          $(document).ready(function () {
+            $.getJSON("../json/listaProdutos.json", function (data) {
+              var produtos = "";
+              $.each(data, function (key, value) {
+                if (existeListaDesejo(value.id)) {
+                  produtos += "<div class='box_imagem'>";
+                  produtos += "<img src='../" + value.urlImg + "' />";
+                  produtos += "<p>" + value.descricao + "</br>" + value.preco;
+                  produtos += "</p>";
+                  produtos += "</div>";
+                }
+              });
+              $("#divListaProdutos").append(produtos);
+            });
+          });
+        </script>
+      </div>
+    </div>
+  </body>
+</html>

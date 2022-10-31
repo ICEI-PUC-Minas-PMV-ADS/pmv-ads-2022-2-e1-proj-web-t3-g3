@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "descricao": "Leite em pó Ninho",
+    "preco": "R$31,83",
+    "urlImg": "assets/img/LeiteNinho.jpg"
+  },
+  {
+    "id": 2,
+    "descricao": "Leite Itambé",
+    "preco": "R$6,98",
+    "urlImg": "assets/img/Leite.jpg"
+  },
+  {
+    "id": 3,
+    "descricao": "Suco de Uva Aliança",
+    "preco": "$11,90",
+    "urlImg": "assets/img/UvaSuco.jpg"
+  },
+  {
+    "id": 4,
+    "descricao": "Macarrão",
+    "preco": "R$10,90",
+    "urlImg": "assets/img/Macarrao.jpg"
+  },
+  {
+    "id": 5,
+    "descricao": "Filé de Peito Sadia",
+    "preco": "$20,90",
+    "urlImg": "assets/img/Frango.jpg"
+  },
+  {
+    "id": 6,
+    "descricao": "Chocolate ao Leite Milka",
+    "preco": "$23,90",
+    "urlImg": "assets/img/Chocolate.jpg"
+  },
+  {
+    "id": 7,
+    "descricao": "Coca-Cola 1 Litro",
+    "preco": "$7,90",
+    "urlImg": "assets/img/CocaCola.jpg"
+  },
+  {
+    "id": 8,
+    "descricao": "Açucar Euro",
+    "preco": "$16,50",
+    "urlImg": "assets/img/Acucar.jpg"
+  },
+  {
+    "id": 9,
+    "descricao": "Feijão Galante",
+    "preco": "$$10,98",
+    "urlImg": "assets/img/Feijao.jpg"
+  },
+  {
+    "id": 10,
+    "descricao": "Arroz Camil",
+    "preco": "$$22,90",
+    "urlImg": "assets/img/Arroz.jpg"
+  },
+  {
+    "id": 11,
+    "descricao": "Milho de Pipoca Yoki",
+    "preco": "$>$8,75",
+    "urlImg": "assets/img/MilhoPipoca.jpg"
+  },
+  {
+    "id": 12,
+    "descricao": "Cerveja Stadt Jever",
+    "preco": "$7,50",
+    "urlImg": "assets/img/Cerveja.jpg"
+  }
+]
