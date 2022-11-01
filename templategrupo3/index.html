@@ -15,7 +15,7 @@
     <div class="container">
       <img
       id="logo"
-      src="/assets/img/logo_site.png"
+      src="./assets/img/logo_site.png"
       alt="" />
       
       </div>
@@ -26,14 +26,14 @@
         <!-- Bruna -->
         <script>
           $(document).ready(function () {
-            $.getJSON("json/listaProdutos.json", function (data) {
+            $.getJSON("./json/listaProdutos.json", function (data) {
               var produtos = "";
               $.each(data, function (key, value) {
                 produtos += "<div class='box_imagem'>";
                 produtos += "<img src='" + value.urlImg + "' />";
                 produtos += "<p>" + value.descricao + "</br>" + value.preco;
                 produtos +=
-                  "<img src='assets/img/AdicionarLista_small.png' title='Adicionar a lista de desejos'" +
+                  "<img src='./assets/img/AdicionarLista_small.png' title='Adicionar a lista de desejos'" +
                   ' onclick="addListaDesejo(' +
                   value.id +
                   ",'" +
@@ -101,7 +101,7 @@
         <br />
         <div>
             <br />
-          <button id="itensmenu" onclick="location.href='html/listaDesejo.html'">
+          <button id="itensmenu" onclick="location.href='./html/listaDesejo.html'">
             MINHA LISTA DE <br />
             DESEJOS
           </button>
@@ -109,7 +109,7 @@
         </div>
         <div>
             <br />
-          <button id="itensmenu" href="#" onclick="abrirlink('html/categoria.html')">
+          <button id="itensmenu" href="#" onclick="abrirlink('./html/categoria.html')">
             CATEGORIA DOS PRODUTOS
           </button>
           <br />
@@ -117,7 +117,7 @@
         <!-- Felipe -->
         <div>
             <br />
-          <button id="itensmenu" onclick="location.href='html/listaSM.html'">
+          <button id="itensmenu" onclick="location.href='./html/listaSM.html'">
             LISTA DE SUPERMERCADOS <br />
             FAVORITOS
           </button>
@@ -163,7 +163,7 @@
         </div>
         <div>
           <button class="buttonContact" onclick="openForm('myContact')">
-            <img src="assets/img/phone.png" alt="Fale conosco" />
+            <img src="./assets/img/phone.png" alt="Fale conosco" />
           </button>
         </div>
         <div class="myContact" id="myContact">
@@ -180,12 +180,12 @@
         </div>
         <!-- fim, Andressa  -->
         <a href="https://www.instagram.com/" target="_blank"
-          ><img src="assets/img/instagram.png" alt="Logo instagram"
+          ><img src="./assets/img/instagram.png" alt="Logo instagram"
         /></a>
         <a
           href="https://pt-br.facebook.com/login/device-based/regular/login/"
           target="_blank"
-          ><img src="assets/img/facebook.png" alt="Logo Facebook"
+          ><img src="./assets/img/facebook.png" alt="Logo Facebook"
         /></a>
       </div>
     </div>
